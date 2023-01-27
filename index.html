@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- this two script is for My account on FontAwsome -->
+    <script src="https://kit.fontawesome.com/919ae7f9f5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+    <!-- this  link to   Leaflet library -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+          <!-- this is the div for the map leaflet   -->
+   <div id="map">
+            
+    
+</div>
+<div id="Estimation">
+    <div id="chooseStation">
+           <p>Destination :</p><select id="Destination">
+            <option hidden></option>
+               <option value="Sousse">Sousse</option>
+               <option value="M'saken">M'saken</option>
+            </select>
+            <div id="station">
+
+            </div>
+            <div id="Time">
+
+            </div>
+    </div>
+    <div id="Dynamic-information">
+            <H3>Current places Of Buss 1:To Sousse  </H3><center><p id="CurrentPlaces1"></p></center>
+            <H3>Current places Of Buss 2: To Msaken </H3><center><p id="CurrentPlaces2"></p></center>
+    </div>
+
+</div>
+    </div>
+  
+   
+    
+
+
+    
+    <script src="solo-project.js"></script>
+</body>
+</html>
